@@ -42,7 +42,7 @@ out/
 ### Exclusions ###
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
-!**/src/test/**
-/data/
+!**/src/ru.netology.diplom.test/**
+/ru.netology.diplom.data/
 /postgres_data/
 /.idea/
