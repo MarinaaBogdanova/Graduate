@@ -7,9 +7,9 @@
 Приложение передает данные банковской карты, введенные пользователем, банковским сервисам. После чего сохраняет информацию об успешности или неуспешности платежа в базе данных
 
 ## Документация
-- [План тестирования](https://github.com/alexdnf/Deyanov_QA-78_Diplom/blob/main/docs/Plan.md)
-- [Отчет о тестировании](https://github.com/alexdnf/Deyanov_QA-78_Diplom/blob/main/docs/Report.md)
-- [Отчет об автобатизации тестирования](https://github.com/alexdnf/Deyanov_QA-78_Diplom/blob/main/docs/Summary.md)
+- [План тестирования](https://github.com/MarinaaBogdanova/Graduate_work/blob/main/documents/Plan.md)
+- [Отчет о тестировании](https://github.com/MarinaaBogdanova/Graduate_work/blob/main/documents/Report.md)
+- [Отчет об автоматизации тестирования](https://github.com/MarinaaBogdanova/Graduate_work/blob/main/documents/Summary.md)
 
 
 # Алгоритм запуска автотестов
@@ -22,7 +22,7 @@
 ## Установка и запуск
 
 1. Клонирование репозитория на локальный компьютер
-- Склонировать на компьютер репозиторий по [адресу](https://github.com/alexdnf/Deyanov_QA-78_Diplom)
+- Склонировать на компьютер репозиторий по [адресу](https://github.com/MarinaaBogdanova/Graduate_work)
 - Открыть локальный репозиторий в IntelliJ Idea
 2. Подготовка окружения для запуска автотестов
 
