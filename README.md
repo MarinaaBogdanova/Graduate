@@ -7,9 +7,9 @@
 Приложение передает данные банковской карты, введенные пользователем, банковским сервисам. После чего сохраняет информацию об успешности или неуспешности платежа в базе данных
 
 ## Документация
-- [План тестирования](https://github.com/MarinaaBogdanova/Graduate_work/blob/main/documents/Plan.md)
-- [Отчет о тестировании](https://github.com/MarinaaBogdanova/Graduate_work/blob/main/documents/Report.md)
-- [Отчет об автобатизации тестирования](https://github.com/MarinaaBogdanova/Graduate_work/blob/main/documents/Summary.md)
+- [План тестирования]()
+- [Отчет о тестировании]()
+- [Отчет об автобатизации тестирования]()
 
 
 # Алгоритм запуска автотестов
@@ -22,15 +22,15 @@
 ## Установка и запуск
 
 1. Клонирование репозитория на локальный компьютер
-- Склонировать на компьютер репозиторий по [адресу](https://github.com/MarinaaBogdanova/Graduate_work)
+- Склонировать на компьютер репозиторий по [адресу]()
 - Открыть локальный репозиторий в IntelliJ Idea
 2. Подготовка окружения для запуска автотестов
 
 Запустить на компьютере программу Docker Desktop
 Для запуска приложения необходимо подготовить следующие Docker-контейнеры:
-- Эмулятор банковского сервиса (представлен в каталоге [gate-simulator](https://github.com/MarinaaBogdanova/Graduate_work/tree/main/gate-simulator), для создания образа используется [Dockerfile](https://github.com/MarinaaBogdanova/Graduate_work/blob/main/gate-simulator/Dockerfile), запуск описан в [docker-compose.yml](https://github.com/MarinaaBogdanova/Graduate_work/blob/main/docker-compose.yml))
-- MySQL (запуск описан в [docker-compose.yml](https://github.com/MarinaaBogdanova/Graduate_work/blob/main/docker-compose.yml), данные для подключения к БД описаны в [application.properties](https://github.com/MarinaaBogdanova/Graduate_work/blob/main/application.properties))
-- PostgreSQL (запуск описан в [docker-compose.yml](https://github.com/MarinaaBogdanova/Graduate_work/blob/main/docker-compose.yml), данные для подключения к БД описаны в [application.properties](https://github.com/MarinaaBogdanova/Graduate_work/blob/main/application.properties))
+- Эмулятор банковского сервиса (представлен в каталоге [gate-simulator](), для создания образа используется [Dockerfile](), запуск описан в [docker-compose.yml]())
+- MySQL (запуск описан в [docker-compose.yml](), данные для подключения к БД описаны в [application.properties]())
+- PostgreSQL (запуск описан в [docker-compose.yml], данные для подключения к БД описаны в [application.properties]())
 
 **Для запуска контейнеров ввести в терминале:** `docker-compose up --build`
 
