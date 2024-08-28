@@ -1,4 +1,4 @@
-# Project Sample  [![Build status](https://ci.appveyor.com/api/projects/status/doyxhi105hj97fsp/branch/main?svg=true)](https://ci.appveyor.com/project/alexdnf/deyanov-qa-78-diplom/branch/main)
+# Project Sample 
 # Дипломный проект профессии "Тестировщик ПО": "Автоматизация тестирования веб-сервиса для покупки тура"
 В проекте представлена автоматизация тестирования веб-сервиса для покупки тура, который взаимодействует с СУБД и API банка. Веб-сервис дает возможность купить тур двумя способами:
 1. Оплата по карте
@@ -39,7 +39,7 @@
 - или `java "-Dspring.datasource.url=jdbc:posgresql://localhost:5432/app" -jar artifacts/aqa-shop.jar` - для работы с базой данных PostgreSQL
 - Приложение будет доступно по адресу: http://localhost:8080/
 4. Запуск тестов
-- Код автотестов, а также вспомогательные классы для получения данных представлены в [папке](https://github.com/MarinaaBogdanova/Graduate_work/tree/main/src/test/java/ru/netology/diplom)
+- Код автотестов, а также вспомогательные классы для получения данных представлены в [папке]()
 - Для запуска тестов ввести в терминале
 -
 `./gradlew "-Ddb.url=jdbc:mysql://localhost:3306/app" test` - при работе с базой данных MySQL
